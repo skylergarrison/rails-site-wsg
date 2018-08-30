@@ -5,6 +5,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
 
 /* General */
 html, body {
@@ -40,6 +41,19 @@ html, body {
   .main p {
     font-size: 30px;
   }
+
+  .mid h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 8rem;
+    transform: translate(-50%, -50%);
+  }
   
   @media screen and (max-width: 800px) {
       body {
@@ -49,3 +63,28 @@ html, body {
           width: 100%;
       }
   }
+
+a:link {
+  font-size: 80px;
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: red;
+    text-decoration: none;
+}
