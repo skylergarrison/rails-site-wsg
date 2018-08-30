@@ -1,7 +1,13 @@
-<div class="main">
-  <div class="container">
-    <h1>Hello my name is Skyler</h1>
-    <p>I am a web developer.</p>
-    <%= link_to "My Resume", asset_path("resume.pdf", skip_pipeline: true) %>
+
+<header>
+  <div class="title">
+    <h1>Skyler Garrison</h1>
+    <p>Web Developer</p>
   </div>
-</div>
+</header>
+
+<main>
+  <h2>Information about Me:</h2>
+  <%= link_to "My Resume", asset_path("resume.pdf", skip_pipeline: true) %>
+</main>
+
