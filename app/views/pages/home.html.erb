@@ -1,7 +1,8 @@
+<% @title = "Unique title" %>
 <div class="main">
   <div class="container">
     <h1>Hello my name is Skyler</h1>
-    <p>I make Rails apps.</p>
-    <a href>
+    <p>I am a web developer.</p>
+    <%= link_to "My Resume", asset_path("resume.pdf", skip_pipeline: true) %>
   </div>
 </div>
