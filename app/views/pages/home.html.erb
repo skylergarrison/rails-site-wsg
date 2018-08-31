@@ -8,6 +8,8 @@
 
 <main>
   <h2>Some Information about Me:</h2>
+
+  <!-- ignore pipeline to allow file access directly from public -->
   <%= link_to "My Resume", asset_path("resume.pdf", skip_pipeline: true) %>
 </main>
 
