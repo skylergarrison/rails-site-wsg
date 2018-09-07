@@ -18,6 +18,43 @@ header {
   height: 100vh;
 }
 
+ /* Link icon styles */
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Github */
+.fa-github {
+  background: white;
+  color: black;
+}
+
+.fa-github:visited {
+  background: white;
+  color: black;
+}
+
+.fa-github:active {
+  background: black;
+  color: white;
+}
+
+/* linkedin */
+.fa-linkedin {
+  background: #55ACEE;
+  color: white;
+} 
+
 .title {
   position: absolute;
   top: 50%;
@@ -54,28 +91,28 @@ main {
   text-align: center;
 }
 
-/* Link Styles */
+/* Link Styles 
 a:link {
   font-size: 80px;
   font-weight: 300;
-  color: purple;
+  color: white;
   text-decoration: none;
 }
 
-/* visited link */
+/* visited link 
 a:visited {
-  color: red;
+  color: white;
   text-decoration: none;
 }
 
-/* mouse over link */
+/* mouse over link 
 a:hover {
-    color: orange;
+    color: white;
     text-decoration: none;
 }
 
-/* selected link */
+/* selected link 
 a:active {
     color: red;
     text-decoration: none;
-}
+} */
