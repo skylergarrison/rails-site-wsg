@@ -1,9 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
 
 body {
-  background: white;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-683782.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 header {
@@ -18,42 +24,46 @@ header {
   height: 100vh;
 }
 
- /* Link icon styles */
- .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+//Link CSS
+.fa {
+  color: white;
 }
-
-/* Hover effect */
+.fa:visited {
+  color: white;
+}
 .fa:hover {
-  opacity: 0.7;
+  color: rgb(206, 117, 0);
 }
 
 /* Github */
 .fa-github {
-  background: white;
-  color: black;
-}
-
-.fa-github:visited {
-  background: white;
-  color: black;
-}
-
-.fa-github:active {
-  background: black;
   color: white;
 }
 
 /* linkedin */
 .fa-linkedin {
-  background: #55ACEE;
   color: white;
-} 
+  padding-left: 10%;
+  padding-top: 10%;
+  border-radius: 50%;
+}
+
+/* email */
+.material-icons {
+  position: relative;
+  color: navy;
+}
+a:link {
+  color: navy;
+}
+a:visited {
+  color: navy;
+}
+a:hover {
+  color: rgb(206, 117, 0);
+  text-decoration: none;
+}
+
 
 .title {
   position: absolute;
@@ -86,33 +96,23 @@ p {
 main {
   max-width: 500px;
   margin: 20px auto;
-  color: black;
   position: relative;
   text-align: center;
+  background-color: #efe9f4cc;
+  border-style: solid;
+  border-color: navy;
+  //rgb(206, 117, 0)
+  max-width: 60%;
 }
 
-/* Link Styles 
-a:link {
-  font-size: 80px;
-  font-weight: 300;
-  color: white;
-  text-decoration: none;
+h1.self-description {
+  padding-top: 5%;
+  text-decoration: underline;
+  text-decoration-color: rgb(206, 117, 0);
+  color: black;
 }
 
-/* visited link 
-a:visited {
-  color: white;
-  text-decoration: none;
+h2.resume {
+  padding-top: 1%;
+  text-decoration: underline;
 }
-
-/* mouse over link 
-a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-/* selected link 
-a:active {
-    color: red;
-    text-decoration: none;
-} */

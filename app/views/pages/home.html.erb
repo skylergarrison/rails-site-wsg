@@ -3,20 +3,31 @@
   <div class="title">
     <h1>Skyler Garrison</h1>
     <p>Web Developer</p>
-    <br>
-    <a href="resume.pdf" class="material-icons" target="_blank">description <br> Resume</a>
-    <br>
-    <a href="#" class="fa fa-github"></a>
-    <a href="#" class="fa fa-linkedin"></a>
-    <a href="#" class="material-icons">email</a>
+    <a href="https://github.com/skylergarrison/" class="fa fa-github" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/skylergarrison/" class="fa fa-linkedin" target="_blank"></a>
     
   </div>
 </header>
 
 <main>
-  <h2>Some Information about Me:</h2>
+  <h1 class="self-description">Who am I?</h1>
+  <h2>William Skyler Garrison, Skyler to my friends.</h2>
 
+  <h1 class="self-description">What's my deal?</h1>
+  <h2>I am a programmer, musician, writer, and world traveler.</h2>
+  <h2>Currently and happily a resident of Seattle, Washington.</h2>
   <!-- ignore pipeline to allow file access directly from public -->
-  <%= link_to "My Resume", asset_path("resume.pdf", skip_pipeline: true), target: :_blank %>
+  <h2 class="resume">My Resume:</h2>
+  <a href="resume.pdf" class="material-icons" target="_blank">description</a>
+
+  <h1 class="self-description">My Passions</h1>
+  <h2>A good cheesesteak widdout!</h2>
+  <h2>Freshwater boating.</h2>
+  <h2>Craft beer.</h2>
+  <h2>Tex-Mex.</h2>
+  
+  <h1 class="self-description">Contact Info</h1>
+  <h2>skyler.garrison@gmail.com</h2>
+  <a href="mailto:skyler.garrison@gmail.com" class="material-icons">email</a>
 </main>
 
