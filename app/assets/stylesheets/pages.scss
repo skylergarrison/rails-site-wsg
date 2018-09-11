@@ -25,7 +25,7 @@ header {
 }
 
 //Link CSS
-.fa {
+.fa:link {
   color: white;
 }
 .fa:visited {
@@ -35,17 +35,8 @@ header {
   color: rgb(206, 117, 0);
 }
 
-/* Github */
-.fa-github {
-  color: white;
-}
-.fa-github:link {
-  color: white;
-}
-
 /* linkedin */
 .fa-linkedin {
-  color: white;
   padding-left: 10%;
   padding-top: 10%;
   border-radius: 50%;
