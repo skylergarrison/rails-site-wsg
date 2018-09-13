@@ -71,7 +71,6 @@ h1 {
   text-transform: uppercase;
   margin: 0;
   font-size: 3rem;
-  white-space: nowrap;
   font-size: 80px;
   text-align: center;
   //font-weight: 300;
@@ -88,7 +87,6 @@ p {
 }
 
 main {
-  max-width: 500px;
   margin: 20px auto;
   position: relative;
   text-align: center;
@@ -96,7 +94,8 @@ main {
   border-style: solid;
   border-color: navy;
   //rgb(206, 117, 0)
-  max-width: 60%;
+  //max-width: 60%;
+  float: center;
 }
 
 h1.self-description {
